@@ -31,10 +31,7 @@ DHCP server.
 # Topology
 This diagram shows the basic topology and data flow:
 
-<picture>
-    <source media="(prefers-color-scheme: light)" srcset="doc/images/architecture-light.png">
-    <source media="(prefers-color-scheme: dark)"  srcset="doc/images/architecture-dark.png">
-</picture>
+!(doc/images/architecture-light.png#gh-light-mode-only)!(doc/images/architecture-dark.png#gh-dark-mode-only)
 
 # Architecture
 TODO
