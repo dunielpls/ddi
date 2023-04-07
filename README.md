@@ -1,5 +1,5 @@
 # ddi
-A DNS, DHCP and IPAM (DDI) solution based on a combination of PowerDNS  
+A DNS, DHCP and IPAM (DDI) solution based on a combination of PowerDNS
 Authoritative, ISC Kea and NetBox.
 
 # Installation
@@ -19,7 +19,7 @@ DHCP:
 
 IPAM:
 - Populate NetBox with IP addresses based on active DHCP leases.
-- Filter and display various models based on their presence and status in the  
+- Filter and display various models based on their presence and status in the
 DHCP server.
 
 # Planned features
@@ -32,14 +32,8 @@ DHCP server.
 This diagram shows the basic topology and data flow:
 
 <picture>
-    <source
-        media="(prefers-color-scheme: light)"
-        srcset="doc/images/architecture-light.png"
-    >
-    <source
-        media="(prefers-color-scheme: dark)"
-        srcset="doc/images/architecture-dark.png"
-    >
+    <source media="(prefers-color-scheme: light)" srcset="doc/images/architecture-light.png">
+    <source media="(prefers-color-scheme: dark)"  srcset="doc/images/architecture-dark.png">
 </picture>
 
 # Architecture
